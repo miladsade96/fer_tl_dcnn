@@ -46,3 +46,6 @@ if __name__ == '__main__':
 
     # Displaying vgg-16 model summary
     vgg_model.summary()
+
+    # Displaying final model summary
+    final_model.summary()
