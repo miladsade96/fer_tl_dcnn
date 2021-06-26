@@ -32,3 +32,13 @@ train_generator = data_gen.flow_from_directory(
     shuffle=True,
     subset="training"
 )
+
+# Preparing data for validation process
+validation_generator = data_gen.flow_from_directory(
+    directory="Dataset",
+    target_size=(224, 224),
+    batch_size=batch_size,
+    interpolation="lanczos",
+    shuffle=True,
+    subset="validation"
+)
