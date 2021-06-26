@@ -30,3 +30,10 @@ final_model = Model(inputs=vgg_model.inputs, outputs=output)
 lr = 0.001
 # Initializing the optimizer
 opt = Adam(learning_rate=lr)
+
+# Compiling the model
+final_model.compile(
+    optimizer=opt,
+    loss=categorical_crossentropy,
+    metrics=["accuracy"]
+)
