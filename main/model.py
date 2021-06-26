@@ -37,3 +37,9 @@ final_model.compile(
     loss=categorical_crossentropy,
     metrics=["accuracy"]
 )
+
+
+if __name__ == '__main__':
+    # Make sure we have frozen the correct layers
+    for i, layer in enumerate(vgg_model.layers):
+        tf.print(i, layer.name, layer.trainable)
