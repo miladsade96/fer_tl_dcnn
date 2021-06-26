@@ -5,3 +5,6 @@
 from math import ceil
 from model import final_model
 from prep import train_generator, validation_generator
+
+# Number of epochs
+n_epochs = 30
