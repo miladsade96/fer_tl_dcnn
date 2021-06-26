@@ -19,3 +19,6 @@ data_gen_args = dict(
     zoom_range=0.3,
     validation_split=0.3
 )
+
+# Instantiating image data generator
+data_gen = ImageDataGenerator(**data_gen_args)
