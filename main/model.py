@@ -25,3 +25,8 @@ output = Dense(512, activation=relu)(output)
 output = Dropout(0.5)(output)
 output = Dense(8, activation=softmax)(output)
 final_model = Model(inputs=vgg_model.inputs, outputs=output)
+
+# Defining the value of learning rate
+lr = 0.001
+# Initializing the optimizer
+opt = Adam(learning_rate=lr)
