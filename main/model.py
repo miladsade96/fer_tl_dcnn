@@ -13,3 +13,7 @@ from tensorflow.keras.losses import categorical_crossentropy
 
 # Instantiating the model with passing default parameters values
 vgg_model = VGG16(weights="imagenet", include_top=False, input_shape=(224, 244, 3))
+
+# Freezing the model layers except last block
+for layer in vgg_model.layers[:15]:
+    layer.trainable = False
