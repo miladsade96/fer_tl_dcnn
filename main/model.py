@@ -43,3 +43,6 @@ if __name__ == '__main__':
     # Make sure we have frozen the correct layers
     for i, layer in enumerate(vgg_model.layers):
         tf.print(i, layer.name, layer.trainable)
+
+    # Displaying vgg-16 model summary
+    vgg_model.summary()
