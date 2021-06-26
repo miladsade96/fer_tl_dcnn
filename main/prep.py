@@ -22,3 +22,13 @@ data_gen_args = dict(
 
 # Instantiating image data generator
 data_gen = ImageDataGenerator(**data_gen_args)
+
+# Preparing data for training process
+train_generator = data_gen.flow_from_directory(
+    directory="Dataset",
+    target_size=(224, 224),
+    batch_size=batch_size,
+    interpolation="lanczos",
+    shuffle=True,
+    subset="training"
+)
