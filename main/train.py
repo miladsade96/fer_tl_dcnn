@@ -19,3 +19,7 @@ history = final_model.fit_generator(
     verbose=1,
     workers=4
 )
+
+# Saving the trained model
+path = "../Saved_model"
+final_model.save(filepath=path)
