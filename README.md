@@ -1,7 +1,5 @@
 # FER_TL_DCNN
 
-This repository is the implementation of this paper - [Facial Emotion Recognition Using Transfer Learning in the Deep CNN](https://www.mdpi.com/2079-9292/10/9/1036) - using python programming language and tensorflow library.
-
 ![GitHub](https://img.shields.io/github/license/EverLookNeverSee/fer_tl_dcnn)
 ![GitHub branch checks state](https://img.shields.io/github/checks-status/EverLookNeverSee/fer_tl_DCNN/main)
 ![GitHub language count](https://img.shields.io/github/languages/count/EverLookNeverSee/fer_tl_dcnn)
@@ -15,6 +13,9 @@ This repository is the implementation of this paper - [Facial Emotion Recognitio
 ![GitHub contributors](https://img.shields.io/github/contributors/EverLookNeverSee/fer_tl_dcnn)
 ![GitHub last commit](https://img.shields.io/github/last-commit/EverLookNeverSee/fer_tl_dcnn)
 
+This repository is the implementation of this paper - [Facial Emotion Recognition Using Transfer Learning in the Deep CNN](https://www.mdpi.com/2079-9292/10/9/1036) - using python programming language and tensorflow library.
+
+![Model structure](images/fer_tl_dcnn.png)
 
 ## Authors
 
