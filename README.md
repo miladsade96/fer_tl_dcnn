@@ -14,3 +14,16 @@ This repository is the implementation of this paper - [Facial Emotion Recognitio
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/EverLookNeverSee/fer_tl_dcnn)
 ![GitHub contributors](https://img.shields.io/github/contributors/EverLookNeverSee/fer_tl_dcnn)
 ![GitHub last commit](https://img.shields.io/github/last-commit/EverLookNeverSee/fer_tl_dcnn)
+
+
+## Authors
+
+Paper authors:  
+* M. A. H. Akhand
+* Shuvendu Roy
+* Nazmul Siddique
+* Md Abdus Samad Kamal
+* Tetsuya Shimamura  
+
+Codebase authors:
+* Milad Sadeghi DM [@EverLookNeverSee](https://github.com/EverLookNeverSee)
